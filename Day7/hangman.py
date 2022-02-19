@@ -8,7 +8,6 @@ from hangman_word import word_list
 print(logo)
 
 choosen_word = random.choice(word_list)
-print("The choosen word is: " + choosen_word)
 word_length = len(choosen_word)
 
 lives = 6
@@ -47,6 +46,7 @@ while not end_of_game:
     print(stages[lives])
 
 
+print("The choosen word is: " + choosen_word)
 
 # NOTE
 # if "_" not in display:
