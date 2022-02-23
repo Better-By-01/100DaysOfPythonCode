@@ -40,9 +40,9 @@ while is_on:
             sum = 0
             print("Please insert coins.")
             quarters = int(input("How many quarters?: "))
-            dimes = int(input("How many dimes?: "))*0.1
-            nickles = int(input("How many nickles?: "))*0.05
-            pennies = int(input("How many pennies?: "))*0.01
+            dimes = int(input("How many dimes?: "))
+            nickles = int(input("How many nickles?: "))
+            pennies = int(input("How many pennies?: "))
             sum += (quarters*0.25 + dimes*0.1 + nickles*0.05 + pennies*0.01)
             if (money_required(choice) <= sum):
                 diff = round(sum - money_required(choice), 2)
