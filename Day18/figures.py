@@ -8,6 +8,7 @@ from random import choice
 
 tim = Turtle()
 tim.width(4)
+tim.speed(0)
 
 sides = [3, 4, 5, 6, 7, 8, 9, 10]
 colors = ["cyan", "spring green", "lime", "deep sky blue", "red", "yellow", "dark orange", "blue", "pink", "violet"]
