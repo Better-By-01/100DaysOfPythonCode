@@ -35,10 +35,7 @@ while game_is_on:
     if guess == "Exit":
 
         # states to learn.csv
-        missing_states = []
-        for state in states_list:
-            if state not in correct_guess:
-                missing_states.append(state)
+        missing_states = [state for state in states_list if state not in correct_guess]
 
         # df = pandas.DataFrame(missing_states)                 # dataframe can directly be created from this and saved to .csv
 
