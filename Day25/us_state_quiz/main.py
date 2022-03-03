@@ -1,4 +1,3 @@
-from re import S
 from turtle import Turtle, Screen
 import turtle
 import pandas
