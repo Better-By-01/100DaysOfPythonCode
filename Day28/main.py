@@ -7,7 +7,7 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 25 
+WORK_MIN = 1 
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 reps = 0
@@ -113,9 +113,5 @@ reset_button.grid(row = 2, column = 2)
 
 check_label = Label(font=(FONT_NAME, 12, "bold"), fg=GREEN, bg=YELLOW)
 check_label.grid(row = 3, column = 1)
-
-
-
-
 
 window.mainloop()                   # this makes the GUI event driven
