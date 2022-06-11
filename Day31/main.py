@@ -3,9 +3,9 @@ import random
 import pandas
 
 BACKGROUND_COLOR = "#B1DDC6"
-DATA_FILE_PATH ="/home/better-by-01/100DaysOfPythonCode/Day31/data/french_words.csv"
-TO_LEARN_FILE ="/home/better-by-01/100DaysOfPythonCode/Day31/data/words_to_learn.csv"
-IMAGES_FILE_PATH = "/home/better-by-01/100DaysOfPythonCode/Day31/images/"
+DATA_FILE_PATH ="/home/giba/100DaysOfPythonCode/Day31/data/french_words.csv"
+TO_LEARN_FILE ="/home/giba/100DaysOfPythonCode/Day31/data/words_to_learn.csv"
+IMAGES_FILE_PATH = "/home/giba/100DaysOfPythonCode/Day31/images/"
 
 current_card={}
 data_list_dict = {}
