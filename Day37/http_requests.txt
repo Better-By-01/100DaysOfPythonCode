@@ -1,0 +1,8 @@
+GET, POST, PUT, DELETE
+
+POST request -> when we given an external system some piece of data and 
+                we are not interested in the response we get back whether it was successful or not
+            Ex. saving a data in google sheet (post data into google sheet, posting a tweet)
+
+PUT -> updating a piece of data in the external system (updating value in google sheet)
+DELETE -> delete a piece of a data in the external system (like the tweet we posted or the facebook post) 
