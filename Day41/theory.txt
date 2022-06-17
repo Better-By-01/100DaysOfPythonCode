@@ -1,0 +1,27 @@
+##### HOW DOES THE INTERNET WORK ? #####
+
+Client requests site details from
+            |
+            V
+    ISP relays the message to
+            |
+            V
+        DNS server
+            |
+            V
+IP address found is sent back to 
+            |
+            V
+      Client via ISP
+            |
+            V
+ Direct request sent from client via ISP 
+ to that IP address which will be 
+ delivered through internet backbone to 
+ the server located at that ip address.
+
+
+##### HOW DO WEBSITES WORK ? #####
+
+using HTML (structure of house), CSS (painting, styling), 
+JS (electricity connection, flushing system) example of building a house
